@@ -1,0 +1,81 @@
+/* Estilos da página */
+.container {
+  width: 70%;
+  margin: 150px auto;
+}
+
+body {
+  color: #4B4B4B;
+  font-family: Roboto,sans-serif;
+}
+body a {
+  cursor: pointer;
+  color: #4B4B4B;
+  text-decoration: none;
+  font-weight: bold;
+}
+body section {
+  margin-bottom: 90px;
+}
+body section h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 10px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+body section p, body section a {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+span {
+  letter-spacing: 0px;
+}
+
+p {
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+
+/* Estilos menu */
+.toggle:last-child {
+  border-bottom: 1px solid #dddddd;
+}
+.toggle .toggle-title {
+  position: relative;
+  display: block;
+  border-top: 1px solid #dddddd;
+  margin-bottom: 6px;
+}
+.toggle .toggle-title h3 {
+  font-size: 16px;
+  margin: 0px;
+  line-height: 1;
+  cursor: pointer;
+  font-weight: 200;
+}
+.toggle .toggle-inner {
+  padding: 7px 25px 10px 25px;
+  display: none;
+  margin: -7px 0 6px;
+}
+.toggle .toggle-inner div {
+  max-width: 100%;
+}
+.toggle .toggle-title .title-name {
+  display: block;
+  padding: 25px 25px 14px;
+  font-weight: bold;
+}
+.toggle .toggle-title a i {
+  font-size: 22px;
+  margin-right: 5px;
+}
+.stronger {
+ font-weight: bold;
+}
+
